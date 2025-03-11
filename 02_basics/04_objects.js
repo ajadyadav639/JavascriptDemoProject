@@ -34,3 +34,16 @@ const o4 = {o1,o2,o3}
 // console.log(o2.hasOwnProperty('4'));
 
 
+const course = {
+    coursename : "Js In Hindi",
+    price : 999,
+    courseInstructor: "Hitesh"
+ }
+
+//  console.log(course.courseinstructor);
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+
