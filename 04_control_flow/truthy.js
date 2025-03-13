@@ -27,3 +27,23 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Object is Empty");
     
 }
+
+
+// nullish coalescing Operator (??) : null undefined
+
+
+// const val1 = 12 ?? 20
+// const val1 = null ?? 20
+// const val1 = null ?? 20 ?? 30
+const val1 = undefined ?? 40 ?? 30
+console.log(val1);
+
+
+// terniary Operator
+
+// condition ? true : false
+const  myIcePack = 100
+myIcePack <=80 ? console.log("You are say Real") : console.log("you are not say real");
+
+
+    
