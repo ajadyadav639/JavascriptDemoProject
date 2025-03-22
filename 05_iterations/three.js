@@ -17,4 +17,11 @@ const map = new Map();
 map.set('IN','India')
 map.set('UK','United Kingdom')
 map.set('US','United State of America')
-console.log(map);
+// console.log(map);
+
+for (const [key,value] of map) {
+    // console.log(key,' :- ',value);
+    
+}
+
+
