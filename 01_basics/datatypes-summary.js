@@ -15,7 +15,7 @@ const anotherId = Symbol('123')
 // console.log(id == anotherId);
 
 const bigNumber = 1234665432314532n
-console.log(bigNumber);
+// console.log(bigNumber);
 
 // Non-Premitive data Types
 
@@ -27,13 +27,13 @@ let myObj = {
     Age : 20,
     Branch : 'Computer Science',
 }
-// console.log(myObj);
+//  console.log(myObj);
 
 let myFunction = function () {
-    console.log("I Want To LEarn Java Script");
+    console.log("I Want To Learn Java Script");
     
 }
-// console.log(myFunction);
+//  console.log(myFunction() );
 
 let obj1 = {
     Name :'Ajeet Yadav',
@@ -46,6 +46,7 @@ obj2.Email = 'ajadyadav639@gmail.com'
 
 console.log(obj1);
 console.log(obj2);
+
 
 
 

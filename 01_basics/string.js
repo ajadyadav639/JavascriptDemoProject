@@ -18,7 +18,7 @@
 // const anotherName = gName.slice(-8, 6);
 // console.log(anotherName);
 
-// const myName = "         Ajad Yadav "
+// const myName = " Ajad Yadav "
 // console.log(myName);
 // console.log(myName.trim());
 
