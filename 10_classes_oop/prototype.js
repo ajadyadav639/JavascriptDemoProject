@@ -18,12 +18,17 @@ Array.prototype.heyHitesh = function(){
     console.log(`Hitesh says hello`);
 }
 
- heroPower.hitesh()
- myHeros.hitesh()
-myHeros.heyHitesh()
+// heroPower.hitesh()
+// myHeros.hitesh()
+// myHeros.heyHitesh()
 // heroPower.heyHitesh()
 
 // inheritance
+
+const User = {
+    name: "Hitesh",
+    email: "hitesh@gmail.com",
+}
 
 const Teacher = {
     makeVideo : true,
@@ -32,3 +37,27 @@ const Teacher = {
 const TeacherSupport = {
     isAvailable: false,
 }
+
+const TAsupport = {
+    makeSignment : 'Js Assignment',
+    fulltime: true,
+    __proto__: TeacherSupport,
+}
+
+Teacher.__proto__ = User;
+
+// modern syntax
+
+Object.setPrototypeOf(TeacherSupport, Teacher);
+
+let anotherUserName = 'ChaiAndCOde      '
+
+String.prototype.truelength = function(){
+    console.log(`${this}`);
+    console.log(`${this.trim().length}`);
+}
+
+anotherUserName.truelength();
+
+"Ajad".truelength();
+"Abhishek".truelength();
