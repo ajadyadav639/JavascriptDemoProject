@@ -2,5 +2,27 @@ function User(email,password) {
     this._email = email
     this._password = password
 
-    Object.defineProperty()
+    Object.defineProperty(this, 'email', {
+        get : function () {
+            return this._email.toUpperCase();
+        },   
+        set : function (value) {
+            this._email = value
+        }
+    });
+
+    Object.defineProperty(this, 'password', {
+        get : function () {
+            return this._password.toUpperCase()
+        },   
+        set : function (value) {
+            this.password = value
+        }
+    });
 }
+
+const chai = new User('ajadyadav639@gmail.com', 'pass123@')
+console.log(chai);
+console.log(chai.email);
+console.log(chai.password);
+
